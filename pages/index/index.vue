@@ -1,22 +1,23 @@
 <template>
 	<view class="content">
+		<!-- 解决标题栏被覆盖问题 -->
 		<view :style="{height : `${statusBarHeight}px`}"></view>
-		<view class="bg-danger h5">hello world</view>
-		<text class="iconfont icon-shoucang" style="font-size:200rpx"></text>
-		<my-icon iconName="icon-bofangsanjiaoxing" iconSize="100rpx"></my-icon>
-		<view style="width:500rpx; height: 500rpx; background-color: green;" class="animated" hover-class="flip"></view>
+		<!-- 搜索布局 -->
+		<search></search>
 	</view>
 </template>
 
 <script>
-	import myIcon from '../../components/icon/index.vue'
+	// import myIcon from '../../components/icon/index.vue'
+	import search from '../../components/search/index.vue'
 	export default {
 		components: {
-			myIcon
+			// myIcon
+			search
 		},
 		data() {
 			return {
-				statusBarHeight : this.$statusBarHeight
+				statusBarHeight: this.$statusBarHeight
 			}
 		},
 		onLoad() {},
