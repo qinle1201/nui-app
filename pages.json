@@ -11,6 +11,22 @@
 		},
 		{
 			"path": "pages/mine/mine"
+		},
+		{
+			"path": "pages/readList/readList",
+			"style": {}
+		},
+		{
+			"path": "pages/listenNoval/listenNoval",
+			"style": {}
+		},
+		{
+			"path": "pages/listenMusic/listenMusic",
+			"style": {}
+		},
+		{
+			"path": "pages/listenKnowledge/listenKnowledge",
+			"style": {}
 		}
 	],
 	"globalStyle": {

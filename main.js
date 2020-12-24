@@ -11,9 +11,9 @@ Vue.prototype.$statusBarHeight = uni.getSystemInfoSync().statusBarHeight;
 //引⼊icon组件
 import icon from "./components/icon/index.vue"
 //全局注册icon组件
-Vue.component("my-icon",icon)
+Vue.component("my-icon", icon)
 
 const app = new Vue({
-    ...App
+	...App
 })
 app.$mount()
